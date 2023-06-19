@@ -9,7 +9,7 @@ public class Main
         double Num2;
         System.out.print("Enter your First number :");
         System.out.println("\nEnter Your Second Number :");
-        if (in.hasNextInt())
+        if (in.hasNextDouble())
         {
             Num1 = in.nextDouble();
             in.nextLine();
@@ -18,10 +18,12 @@ public class Main
             if (Num1 == Num2)
             {
                 System.out.print("The numbers are equal");
-            } else if (Num1 > Num2)
+            }
+            else if (Num1 > Num2)
             {
                 System.out.println("The Second number " + Num2 + "is less");
-            } else
+            }
+            else
             {
                 System.out.println("The First number " + Num1 + "is less");
             }
